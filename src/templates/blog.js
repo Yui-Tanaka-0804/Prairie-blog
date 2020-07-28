@@ -3,6 +3,8 @@ import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
 import useBlogData from '../static_queries/useBlogData'
 import blogTemplateStyles from "../styles/templates/blog.module.scss"
+import "prismjs/themes/prism-tomorrow.css"
+import "../styles/lineHighlightCode.css"
 //this component handles the blur img & fade-ins
 import Img from 'gatsby-image'
 
