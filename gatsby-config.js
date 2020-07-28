@@ -58,6 +58,7 @@ module.exports = {
         plugins: [
           "gatsby-remark-relative-images",
           "gatsby-remark-normalize-paths",
+          "gatsby-remark-prismjs",
           {
             resolve: "gatsby-remark-images",
             options: {
