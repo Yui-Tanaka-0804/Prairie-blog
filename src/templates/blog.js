@@ -24,7 +24,6 @@ export default function Blog(props) {
       return allSlugs[0]
     }
   }
-  console.log(blogTemplateStyles);
 
   return (
     <Layout>
