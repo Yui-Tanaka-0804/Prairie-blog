@@ -69,15 +69,22 @@
   max-width: 800px;
   margin: 0 auto;
   h2 {
-    margin-bottom: 0;
+    margin: 0 1rem;
   }
   a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    svg {
-      width: 20px;
-    }
+  }
+}
+
+.footer__next {
+  &:first-child {
+    transform: scale(-1,1);
+  }
+  
+  svg {
+    width: 20px;
   }
 }
 
